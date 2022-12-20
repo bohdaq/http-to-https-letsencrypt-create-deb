@@ -1,5 +1,6 @@
 # Create Debian .deb package for Rust Web Server
-To build rws as Debian package, put prebuilt binary rws at rws-create-deb/usr/local/bin, update rws-create-deb/DEBIAN/control file, and execute:
+To build rws as Debian package, put prebuilt binary http-to-https-letsencrypt at http-to-https-letsencrypt-create-deb/usr/local/bin
+
 > dpkg-deb --build http-to-https-letsencrypt-create-deb
 > 
 > mv http-to-https-letsencrypt-create-deb.deb http-to-https-letsencrypt.deb
