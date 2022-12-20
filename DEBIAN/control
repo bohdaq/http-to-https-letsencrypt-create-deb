@@ -1,0 +1,9 @@
+Package: http-to-https-letsencrypt
+Version: 8.0.0
+Architecture: all
+Maintainer: Bohdan Tsap <bohdan.tsap@tutanota.com>
+Homepage: https://github.com/bohdaq/rust-http-to-https-letsencrypt-acme
+Depends: bash
+Section: unknown
+Priority: optional
+Description: http-to-https-letsencrypt is an application web-server for making permanent redirects from http to https.
